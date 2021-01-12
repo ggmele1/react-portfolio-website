@@ -1,4 +1,4 @@
-- NOTE - Currently working on a repository that can be cloned and can be used as a template.
+- NOTE - Currently working on a repository that can be cloned and used as a template.
 
 # Getting Started with Create React App
 
