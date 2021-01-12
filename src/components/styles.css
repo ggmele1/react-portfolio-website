@@ -1,0 +1,130 @@
+@import url("https://use.typekit.net/ihn6sty.css");
+
+/* Typography START */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+  font-family: myriad-pro, sans-serif !important;
+  color: #171717 !important;
+}
+/* Typography END */
+
+.main {
+  padding: 0 !important;
+  scroll-behavior: smooth;
+  background-color: #fffeff;
+}
+
+/* Header Component START */
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
+
+/* Header Component END */
+
+.section-header {
+  text-transform: uppercase !important;
+  letter-spacing: 0.8rem !important;
+  padding: 1rem;
+}
+
+/* Nav Component START */
+.nav-link {
+  text-decoration: none !important;
+  margin-top: 10px;
+  font-family: myriad-pro, sans-serif;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: myriad-pro;
+  font-size: 1.2em;
+  cursor: pointer;
+  outline: inherit;
+}
+
+/* Nav Component END */
+
+/* Project List Component START */
+.project-link {
+  white-space: nowrap;
+  margin: 5px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase !important;
+  text-decoration: underline !important;
+  letter-spacing: 0.1rem !important;
+  font-size: 12.5vw;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: myriad-pro;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.project-nav {
+  white-space: nowrap;
+  margin: 5px;
+  font-family: myriad-pro, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase !important;
+  text-decoration: underline !important;
+  letter-spacing: 0.1rem !important;
+  font-size: 4vw;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: myriad-pro;
+  cursor: pointer;
+  outline: inherit;
+}
+/* Project List Component END */
+
+/* Media Queries  */
+@media screen and (min-width: 700px) {
+  .gif {
+    width: 50%;
+  }
+
+  .nav-link {
+    font-size: 2em;
+  }
+
+  .section-header {
+    font-size: 5rem !important;
+  }
+
+  .project-nav {
+    font-size: 4vw !important;
+  }
+
+  .project-link {
+    font-size: 10vw !important;
+  }
+}
+
+.box {
+  z-index: 0;
+  width: 25px;
+  height: 600px;
+  background: rgb(212, 200, 79);
+  background: linear-gradient(
+    0deg,
+    rgba(212, 200, 79, 1) 0%,
+    rgba(172, 56, 35, 1) 25%,
+    rgba(16, 11, 16, 1) 50%,
+    rgba(55, 21, 190, 1) 75%,
+    rgba(159, 191, 184, 1) 100%
+  );
+}
